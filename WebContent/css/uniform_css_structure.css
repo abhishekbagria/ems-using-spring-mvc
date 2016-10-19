@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li input.search {
+	 width: 60%;
+	 height: 30px;
+	 margin:5px;
+}
+
+button {
+	height: 30px
+}
+
+th.admin_ops {
+	width: 10%;
+}
+table, th, td, thead{
+	border: 1px solid black;
+	padding:5px;
+	border-collapse: collapse;
+}
+th.view {
+	width: 80%;
+}
+table {
+	width:100%;
+	overflow: auto;
+}
+/* div {
+	width:78%;
+    overflow-y: hidden; Hide horizontal scrollbar
+    overflow-x: scroll; Add vertical scrollbar
+} */

@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+div.login {
+	max-width: 200px;
+	border: solid;
+	border-color: green;
+}

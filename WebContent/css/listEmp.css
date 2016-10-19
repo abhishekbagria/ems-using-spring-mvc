@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+table {
+    width: 70%;
+    overflow-x: scroll; /* Hide horizontal scrollbar */
+    overflow-y: hidden; /* Add vertical scrollbar */
+	
+}
